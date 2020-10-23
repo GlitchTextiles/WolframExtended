@@ -126,10 +126,8 @@ void keyPressed() {
     break;
   case 'd':
     rules.inv();
-    rules.debug();
   case 'f':
     rules.rev();
-    rules.debug();
     break;
   case 'x':
     generation.clear();
@@ -140,18 +138,6 @@ void keyPressed() {
     break;
   case 'j':
     jam = true;
-    break;
-  case '1':
-    tap_1_en = !tap_1_en;
-    break;
-  case '2':
-    tap_2_en = !tap_2_en;
-    break;
-  case '3':
-    tap_3_en = !tap_3_en;
-    break;
-  case '4':
-    tap_4_en = !tap_4_en;
     break;
   case 'r': 
     generation.randomize();
